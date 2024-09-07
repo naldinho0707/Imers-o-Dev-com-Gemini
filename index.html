@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+    <link rel="icon" href="img/one-piece10.png">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header>        
+        <h1>Personagens de One Piece</h1>
+        <img src="img/onepice-400.png" alt="">
+    </header>
+
+    <main>
+        <!--Seção de Pesquisa-->
+        <section>
+            <input type="text" placeholder="Digite o nome do personagem" id="campo-pesquisa">
+
+            <!-- no botão para chamar no js com função onclick com
+             a função pesquisar() que foi criada no js app-->
+            <div class="botoes">
+                <button onclick="pesquisar()">Pesquisar</button>
+                
+                <button onclick="mostraTudo()">Mostrar Tudo</button>
+            </div>
+
+        </section>
+                
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+            <!-- section que o js vai por os dados usando o 
+                 id="resultados-pesquisa" -->
+                 
+
+        </section>
+    </main>
+
+
+    <footer>
+
+        <img src="img/footer-80.png" alt="Imgens dos 3 irmão Luffy, Ace e Sabo">
+        <p>2024 - Personagens de One Piece. Todos direitos reservados &copy;.</p>
+        <!-- <p>Entre em contato pelo e-mail: onepiece@onepiece.com</p> -->
+    </footer>
+
+
+<!-- linkar o javascript sempre no final do body -->
+<script src="dados.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
